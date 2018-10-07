@@ -118,7 +118,7 @@ func isAuthenticated(req *http.Request) bool {
 
 // main creates and starts a Server listening.
 func main() {
-	const address = "localhost:8080"
+	const address = "oauth-go-go.herokuapp.com"
 	// read credentials from environment variables if available
 	FacebookClientID := os.Getenv("FACEBOOK_CLIENT_ID")
 	if FacebookClientID == "" {
