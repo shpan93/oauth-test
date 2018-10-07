@@ -1,0 +1,66 @@
+{
+	"ImportPath": "github.com/test-oauth",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/dghubble/gologin",
+			"Comment": "v2.0.0-13-g9737459",
+			"Rev": "973745917bf3daec63ac76104a1de3e5ddccd0f3"
+		},
+		{
+			"ImportPath": "github.com/dghubble/gologin/facebook",
+			"Comment": "v2.0.0-13-g9737459",
+			"Rev": "973745917bf3daec63ac76104a1de3e5ddccd0f3"
+		},
+		{
+			"ImportPath": "github.com/dghubble/gologin/internal",
+			"Comment": "v2.0.0-13-g9737459",
+			"Rev": "973745917bf3daec63ac76104a1de3e5ddccd0f3"
+		},
+		{
+			"ImportPath": "github.com/dghubble/gologin/oauth2",
+			"Comment": "v2.0.0-13-g9737459",
+			"Rev": "973745917bf3daec63ac76104a1de3e5ddccd0f3"
+		},
+		{
+			"ImportPath": "github.com/dghubble/sessions",
+			"Rev": "26dc61fdb7361714ff41a80a2ad18cbdf8ba1956"
+		},
+		{
+			"ImportPath": "github.com/dghubble/sling",
+			"Comment": "v1.1.0-9-gc519674",
+			"Rev": "c519674860ff275e0ceb12caf5d87b31765c4e71"
+		},
+		{
+			"ImportPath": "github.com/google/go-querystring/query",
+			"Comment": "v1.0.0",
+			"Rev": "44c6ddd0a2342c386950e880b658017258da92fc"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Comment": "v1.1.1-7-gbb1ab76",
+			"Rev": "bb1ab76598893258e90f45d8a708a2505a95af2a"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "4dfa2610cdf3b287375bbba5b8f2a14d3b01d8de"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context/ctxhttp",
+			"Rev": "4dfa2610cdf3b287375bbba5b8f2a14d3b01d8de"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "c57b0facaced709681d9f90397429b9430a74754"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/facebook",
+			"Rev": "c57b0facaced709681d9f90397429b9430a74754"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/internal",
+			"Rev": "c57b0facaced709681d9f90397429b9430a74754"
+		}
+	]
+}
