@@ -120,9 +120,17 @@ func isAuthenticated(req *http.Request) bool {
 func main() {
 	const address = "localhost:8080"
 	// read credentials from environment variables if available
+	FacebookClientID := os.Getenv("FACEBOOK_CLIENT_ID")
+	if FacebookClientID == "" {
+		FacebookClientID = "281752395776255"
+	}
+	FacebookClientSecret := os.Getenv("FACEBOOK_CLIENT_SECRET")
+	if FacebookClientSecret == "" {
+		FacebookClientSecret = "39cef74d00beb8e0bff47bee5b927a40"
+	}
 	config := &Config{
-		FacebookClientID:     os.Getenv("FACEBOOK_CLIENT_ID"),
-		FacebookClientSecret: os.Getenv("FACEBOOK_CLIENT_SECRET"),
+		FacebookClientID:     FacebookClientID,
+		FacebookClientSecret: FacebookClientSecret,
 	}
 	// allow consumer credential flags to override config fields
 	clientID := flag.String("client-id", "", "Facebook Client ID")
