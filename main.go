@@ -1,4 +1,4 @@
-package src
+package test_oauth
 
 import (
 	"flag"
